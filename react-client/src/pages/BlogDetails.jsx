@@ -28,10 +28,12 @@ const BlogDetails = () => {
   // }
 
   const handleClick = async () => {
+
     await fetch(`${apiUrl}/${id}`, {
       method: "DELETE",
     });
     navigate("/");
+    
   };
 
   // const handleClick = () => {

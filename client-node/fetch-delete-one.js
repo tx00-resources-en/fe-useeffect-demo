@@ -1,27 +1,27 @@
 const apiUrl = "http://localhost:4000/api/blogs";
-
-const blogId = "698459fc1c891e8b6381d6eb";
+const blogId = "698479fef3b6913da93b016a";
 
 //v1
 const deleteBlog = async (blogId) => {
-
-
-
   const response = await fetch(`${apiUrl}/${blogId}`, {
     method: "DELETE",
   });
   console.log("Blog deleted successfully");
 };
 
-
-
-
-
-
 deleteBlog(blogId);
 
-//v2
 
+
+
+
+
+
+
+
+
+
+//v2
 // const deleteBlog = async (blogId) => {
 //     try {
 //         const response = await fetch(`${apiUrl}/${blogId}`, {
