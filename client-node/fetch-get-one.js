@@ -1,5 +1,5 @@
 const apiUrl = "http://localhost:3001/api/blogs";
-let id = "68c6ce5db8335fcf4d34312a";
+let id = "698459fc1c891e8b6381d6eb";
 
 const fetchBlog = async () => {
 

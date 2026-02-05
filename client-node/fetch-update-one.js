@@ -1,7 +1,7 @@
 const apiUrl = "http://localhost:3001/api/blogs";
 
 
-const blogId = "68c6ce5db8335fcf4d34312a";
+const blogId = "698459fc1c891e8b6381d6eb";
 
 const updatedData = {
   title: "Here is an updated title",

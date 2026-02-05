@@ -63,3 +63,4 @@ const updateBlog = async (blogId, updatedData) => {
 
 // Example Usage
 updateBlog(blogIdToUpdate, updatedData);
+

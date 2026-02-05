@@ -8,6 +8,7 @@ const blog = {
   userId: 1,
 };
 
+
 const addBlog = async () => {
   try {
     const response = await fetch(apiUrl, {

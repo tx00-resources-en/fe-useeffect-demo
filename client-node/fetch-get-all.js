@@ -11,3 +11,4 @@ const fetchBlogs = async () => {
 }
 
 fetchBlogs()
+
