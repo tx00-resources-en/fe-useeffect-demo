@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import BlogList from "./BlogList";
 
-import { REACT_APP_API_URL } from "../utils/apiConfig";
-const apiUrl = `${REACT_APP_API_URL}/api/blogsaa`;
+const apiUrl = `/api/blogs`;
 
 const Home = () => {
   const [blogs, setBlogs] = useState(null);

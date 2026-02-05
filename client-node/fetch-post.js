@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:3001/api/blogs";
+const apiUrl = "http://localhost:4000/api/blogs";
 
 const blog = {
   title: "Good morning 2024-11-18",

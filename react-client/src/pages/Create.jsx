@@ -10,9 +10,8 @@
 
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { REACT_APP_API_URL } from "../utils/apiConfig";
 
-const apiUrl = `${REACT_APP_API_URL}/api/blogs`;
+const apiUrl = `/api/blogs`;
 
 const Create = () => {
   const [title, setTitle] = useState("");

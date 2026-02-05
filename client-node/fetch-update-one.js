@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:3001/api/blogs";
+const apiUrl = "http://localhost:4000/api/blogs";
 
 
 const blogId = "698459fc1c891e8b6381d6eb";

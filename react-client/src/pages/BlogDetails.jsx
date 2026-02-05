@@ -1,8 +1,7 @@
 import { useNavigate, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 
-import { REACT_APP_API_URL } from "../utils/apiConfig";
-const apiUrl = `${REACT_APP_API_URL}/api/blogs`;
+const apiUrl = `/api/blogs`;
 
 const BlogDetails = () => {
   const { id } = useParams();
