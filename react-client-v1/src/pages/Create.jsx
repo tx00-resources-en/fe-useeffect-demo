@@ -1,17 +1,6 @@
-// const Create = () => {
-//   return (
-//     <div className="create">
-//       <h2>Add a New Blog</h2>
-//     </div>
-//   );
-// }
-
-// export default Create;
-
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const apiUrl = `/api/blogs`;
 
 const Create = () => {
   const [title, setTitle] = useState("");
@@ -24,7 +13,7 @@ const Create = () => {
 
     const blog = { title, body, author };
 
-    const response = await fetch(apiUrl, {
+    const response = await fetch("/api/blogs", {
       method: "POST",
       body: JSON.stringify(blog),
       headers: {
